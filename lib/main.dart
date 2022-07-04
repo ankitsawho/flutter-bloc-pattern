@@ -2,7 +2,7 @@ import 'package:bloc_pattern_app/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
 void main(){
-  runApp(App());
+  runApp(const App());
 }
 
 class App extends StatelessWidget {
@@ -14,7 +14,7 @@ class App extends StatelessWidget {
       title: "Cubit App",
       debugShowCheckedModeBanner: false,
       theme: ThemeData(useMaterial3: true),
-      home: HomeScreen(),
+      home: const HomeScreen(),
     );
   }
 }
