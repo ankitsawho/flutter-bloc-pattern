@@ -11,7 +11,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "BLoC App",
+      title: "Cubit App",
       debugShowCheckedModeBanner: false,
       theme: ThemeData(useMaterial3: true),
       home: HomeScreen(),
